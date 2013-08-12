@@ -1,0 +1,14 @@
+{
+  "name": "polymer-bugs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+	"devDependencies": {
+    "http-server": "~0.5.5"
+  },
+  "scripts":{
+  "start": "http-server ."
+ },
+  "author": "kaosat-dev",
+  "license": "MIT"
+}

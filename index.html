@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="vendor/polymer/polymer.min.js"></script>
+    <!-- Load custom element -->
+    <link rel="import" href="elements/test.html">
+  </head>
+  <body>
+    <!-- Instantiate custom element -->
+	<visitor-creds></visitor-creds>
+    <script>
+		document.body.style.opacity = 0;
+		window.addEventListener('WebComponentsReady', function() {
+			document.body.style.opacity = 1; // show body now that registration is done.
+			console.log("components loaded");
+		});
+  </script>
+  </body>
+</html>
